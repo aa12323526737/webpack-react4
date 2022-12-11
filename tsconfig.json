@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "es6",//编译后的js文件的语言版本是es6
+    "jsx": "react",
+    "strictNullChecks": true,
+    "typeRoots": [
+      "./node_modules/@types",//指定第三方库的类型文件的位置
+      "./node_modules/@figma"//指定figma的类型文件的位置
+    ]
+  },
+  "include": ["src/**/*.ts", "src/**/*.tsx"]//指定编译的文件,这里是src目录下的所有ts和tsx文件
+}
